@@ -1,5 +1,6 @@
 from setuptools import find_packages,setup
 from typing import List
+HYPHEN_E_DOT = '-e .'
 REQUIREMENT_FILE_NAME = "requirements.txt"
 def get_requirements()->List[str]:
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
